@@ -11,7 +11,7 @@
 
 ### flo
 
-# This port was possible thanks to the invaluable help of ipdev99 and xxhoeckyxx.
+# This is an unofficial port by ipdev99.
 
 device_checkDevice() {
 
