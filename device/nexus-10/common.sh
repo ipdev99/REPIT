@@ -32,7 +32,7 @@
 
 device_makeFlashizeEnv="env/arm.zip"
 
-device_makeFilenameConfig="cache=max+wipe-system=1228M"
+device_makeFilenameConfig="cache=16M+wipe-system=1.3G-data=max"
 
 device_init() {
 
@@ -64,9 +64,10 @@ device_initPartitions() {
     #     <gpt-number>  <gpt-name>  <friendly-name> <conf-defaults>     <crypto-footer>
     initPartition    7  cache       cache           "same keep ext4"    0
     initPartition    8  system      system          "same keep ext4"    0
+    initPartition    9  userdata    data            "same keep ext4"    $footerSize
 
     # the set of modifiable partitions that can be configured by the user (overriding <conf-defaults>):
-    configurablePartitions="$(seq 7 8)"
+    configurablePartitions="$(seq 7 9)"
 
 }
 
@@ -95,10 +96,10 @@ device_setup() {
 device_setupHeap_main() {
 
     # the set of contiguous partitions that form this heap, in order of ascending partition start address:
-    heapPartitions="$(seq 7 8)"
+    heapPartitions="$(seq 7 9)"
 
     # the disk area (as a sector range) to use for the heap partitions:
     heapStart=$(parOldEnd 6)        # one past the end of misc.
-    heapEnd=$(parOldEnd 8)          # one past the end of system.
+    heapEnd=$deviceHeapEnd          # one past the last usable sector of the device.
 
 }
