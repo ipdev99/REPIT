@@ -17,7 +17,7 @@
 # Partition table holds up to 32 entries
 # First usable sector is 34, last usable sector is 61079518
 # Total free space is 1526010 sectors (745.1 MiB)
-# 
+#
 # Number  Start (sector)    End (sector)  Size       Code  Name
 #    1          131072          306143   85.5 MiB    0700  radio
 #    2          393216          399359   3.0 MiB     FFFF  modemst1
@@ -106,7 +106,7 @@ device_setup() {
 
     # the size of partitions configured with the 'min' keyword:
     #heapMinSize=$(( 8 * MiB ))
-    
+
     # the partition alignment:
     heapAlignment=$(( 4 * MiB ))
 

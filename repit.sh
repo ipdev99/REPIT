@@ -361,10 +361,10 @@ init() {
     tpar=$tdir/partition-info/p
 
     device_init
-    
+
     MiB=$((        1024 * 1024 / sectorSize ))      # 1 MiB in sectors
     GiB=$(( 1024 * 1024 * 1024 / sectorSize ))      # 1 GiB in sectors
-    
+
     checkTools
     initPartitions
     parsePackageName "$packageName"
@@ -404,7 +404,7 @@ setup() {
             fatal "partition #$n: invalid size"
         fi
     done
-    
+
     for n in $(seq $(( partitionCount + 1 )) $(( partitionCount + 100 )) ); do
         if [ -e ${spar}$n ]; then
             fatal "partition #$n: unexpected"
