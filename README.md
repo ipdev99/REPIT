@@ -1,9 +1,7 @@
 ## This is a fork of Lanchon's REPIT
-### An unofficial port for Nexus 7 2013 (deb/flo) and Nexus 10 (manta)
-
-## Lanchon REPIT
 ### A Device-Only Data-Sparing Repartitioning Tool For Android
 
+### An unofficial port for Nexus 7 2013 (deb/flo) and Nexus 10 (manta)
 #### [CHANGELOG] - [DEVICES] - [DOWNLOADS] - [XDA THREAD Deb/Flo] - [XDA THREAD Manta]
 
 [CHANGELOG]:  https://github.com/ipdev99/REPIT/commits/mod
