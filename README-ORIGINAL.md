@@ -1,16 +1,13 @@
-## This is a fork of Lanchon's REPIT
-### An unofficial port for Nexus 7 2013 (deb/flo) and Nexus 10 (manta)
-
 ## Lanchon REPIT
 ### A Device-Only Data-Sparing Repartitioning Tool For Android
 
-#### [CHANGELOG] - [DEVICES] - [DOWNLOADS] - [XDA THREAD Deb/Flo] - [XDA THREAD Manta]
+#### [CHANGELOG] - [DEVICES] - [DOWNLOADS] - [GALAXY S2] - [XDA THREAD]
 
-[CHANGELOG]:  https://github.com/ipdev99/REPIT/commits/mod
+[CHANGELOG]:  https://github.com/Lanchon/REPIT/releases
 [DEVICES]:    #device-specific-information
-[DOWNLOADS]:  https://sourceforge.net/projects/repit/files
-[XDA THREAD Deb/Flo]: https://forum.xda-developers.com/t/tool-unofficial-port-repit-for-nexus-7-2013-deb-flo.4237183
-[XDA THREAD Manta]: https://forum.xda-developers.com/t/tool-unofficial-port-repit-for-nexus-10-manta.4237189
+[DOWNLOADS]:  https://www.androidfilehost.com/?w=files&flid=49911
+[GALAXY S2]:  #the-galaxy-s2-family
+[XDA THREAD]: http://forum.xda-developers.com/android/software-hacking/tool-lanchon-repit-data-sparing-t3358036
 
 Powered by [Flashize](https://github.com/Lanchon/Flashize).
 
@@ -185,6 +182,4 @@ i believe this software to be very safe and i exercised it a lot before posting 
 
 -----
 
-Original README [Link](https://github.com/ipdev99/REPIT/blob/mod/README-ORIGINAL.md).
-
-For historical information regarding the CHEF-KOCH incident (and XDA's response), please follow [this link](https://github.com/Lanchon/REPIT/blob/master/README-CHEF-KOCH.md).
+for historical information regarding the CHEF-KOCH incident (and XDA's response), please follow [this link](https://github.com/Lanchon/REPIT/blob/master/README-CHEF-KOCH.md).
