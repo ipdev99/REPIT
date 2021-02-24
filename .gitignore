@@ -1,2 +1,13 @@
 /build
 /run.conf
+
+# ignore (MacOS finder)
+.DS_Store*
+
+# ignore xfiles
+x_*
+xfiles/*
+
+# ignore backup and zip files.
+*.backup
+*.zip
