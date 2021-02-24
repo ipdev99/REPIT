@@ -72,7 +72,7 @@ checkFs_ext4() {
         *)
             fatal "file system errors in $(parName $n) could not be automatically fixed (try running 'e2fsck -f $dev')"
             ;;
-    esac    
+    esac
 
 }
 
